@@ -28,5 +28,5 @@ def play_game_with_trained_agent(q_table_file):
 
 if __name__ == "__main__":
     # Especifique o arquivo da tabela Q que deseja carregar (substitua o caminho conforme necessário)
-    q_table_file = "/home/luis/ufu/ia-snake-q-learning/trainings/q_table_episode_999.npy"
+    q_table_file = "/home/luis/ufu/ia-snake-q-learning/trainings/q_table.npy"
     play_game_with_trained_agent(q_table_file)
