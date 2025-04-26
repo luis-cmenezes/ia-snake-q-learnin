@@ -20,7 +20,7 @@ class QLearningAgentTrain:
         self.q_table[state, action] = (1-self.lr) * q_s_a + self.lr * (reward + self.gamma*best_next)
 
 def train_agent(episodes=1000):
-    game = SnakeGame()
+    game = SnakeGame(render=False)
     agent = QLearningAgentTrain()
 
     for episode in range(episodes):
