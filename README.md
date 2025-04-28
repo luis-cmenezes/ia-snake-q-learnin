@@ -1,6 +1,9 @@
 # Snake Game with Q-Learning AI
 
-![snake_q_learning-_online-video-cutter com_](https://github.com/user-attachments/assets/d29edc23-e372-4dc8-9297-64699f60afe1)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d29edc23-e372-4dc8-9297-64699f60afe1" alt="snake_q_learning-_online-video-cutter com_">
+</p>
+
 
 
 This repository contains an implementation of the classic Snake game with an AI agent trained using Q-Learning. The project demonstrates how reinforcement learning can be applied to teach an agent to play games autonomously.
